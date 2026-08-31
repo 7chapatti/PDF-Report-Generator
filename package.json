@@ -1,7 +1,15 @@
 {
   "name": "pdf-report-generator",
   "version": "1.0.0",
-  "private": true,
-  "scripts": { "start": "node src/server.js" },
-  "dependencies": { "express": "^4.19.2", "playwright": "^1.47.0" }
+  "description": "SQL aggregation -> HTML -> PDF report, served by link, idempotent per day",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node test/report.test.js && node test/render.test.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "playwright": "^1.47.0"
+  }
 }
