@@ -130,11 +130,12 @@ curl -o my-report.pdf http://localhost:3000/reports/1/file. Opens the same PDF t
 .
 
 ##Idempotency test proof:
-<img width="880" height="96" alt="image" src="https://github.com/user-attachments/assets/55c60b21-394e-4b35-b121-6889b5a6397b" />
+<img width="877" height="133" alt="image" src="https://github.com/user-attachments/assets/2b4e82e4-99d3-4f74-a8a9-1ee760ea47ba" />
 .
 
 ##Get report information test proof:
 <img width="646" height="220" alt="image" src="https://github.com/user-attachments/assets/4af288f1-6022-41a9-a44a-e2fe8f2f56c7" />
+.
 
 
 ##stage 4: When to move out of the request:
