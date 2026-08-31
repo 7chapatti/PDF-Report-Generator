@@ -12,5 +12,10 @@ function getDb(dbPath = DB_PATH) {
     created_at TEXT NOT NULL
   )`);
   return db;
+  db.exec(`CREATE TABLE IF NOT EXISTS reports (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    path TEXT,
+    created_at TEXT NOT NULL
+  )`);
 }
 module.exports = { getDb, DB_PATH };
