@@ -1,4 +1,3 @@
 node_modules/
 report.db
-reports/
-test/*.db
+reports/*.pdf
